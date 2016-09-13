@@ -27,3 +27,7 @@ print html
 type = soup.find('div',attrs={"class":"table-info"}).findAll('div')
 print type[2].find('strong').string
 # {'class': 'recline-slickgrid slickgrid_286674 ui-widget' , 'id': 'attribute-table'}
+
+*****************************
+thinking about D3:
+<script src="https://d3js.org/d3.v4.min.js"></script>
