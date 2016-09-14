@@ -31,3 +31,7 @@ print type[2].find('strong').string
 *****************************
 thinking about D3:
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.js" charset="utf-8"></script>
+
+highcharts
+<script src="https://code.highcharts.com"></script>

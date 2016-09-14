@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CrimeMappr</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<body>
+  <div class='sidebar pad2'>Incident</div>
+  <div id='map' class='map pad2'>Map</div>
+  <script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2tzaHVsdGlzIiwiYSI6ImNpdDJ3a2JtYTB0cHEycHFwOW5uMGV5cHkifQ.sUGo-LKDrCEO_LEhsCmqXQ';
+// This adds the map to your page
+var map = new mapboxgl.Map({
+  // container id specified in the HTML
+  container: 'map',
+  // style URL
+  style: 'mapbox://styles/skshultis/cit2x27v0001v2yp8kr4b3fkv',
+  // initial position in [long, lat] format
+  center: [-76.995845, 38.892523],
+  // initial zoom
+  zoom: 11.3
+});
+</script>
+
+</body>
+</html>
