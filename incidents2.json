@@ -1,3 +1,4 @@
+console.log('map')
 [{
 	"longitude": -77.03273579,
 	"latitude": 38.93593472,

@@ -1,38 +1,9 @@
+console.log('points')
 var incidents =
 
 {
    "type": "FeatureCollection",
    "features": [
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -77.03273579,38.93593472 ]
-    },
-    "properties": {
-    "id":295459,
-    "date":"7/30/16",
-    "time":"12:00 AM",
-    "offense":"HOMICIDE",
-    "address":"3523 - 3599 BLOCK OF 14TH STREET NW",
-    "ward":1
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -76.97398492,38.86353622 ]
-    },
-    "properties": {
-    "id":295460,
-    "date":"7/30/16",
-    "time":"12:00 AM",
-    "offense":"HOMICIDE",
-    "address":"2300 - 2399 BLOCK OF GOOD HOPE ROAD SE",
-    "ward":8
-    }
-  },
   {
     "type": "Feature",
     "geometry": {

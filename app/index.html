@@ -11,10 +11,21 @@
 
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="./../index.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 <body>
-  <div class='sidebar'>Incident</div>
+  <div class='sidebar'></div>
+  <div class='my-legend'>
+<div class='legend-title'>30 days of violent crime <br> in Washington, DC</div>
+<div class='legend-scale'>
+  <ul class='legend-labels'>
+    <li><span style='background:#F1EEF6;'></span>Homicide</li>
+    <li><span style='background:#BDC9E1;'></span>Sex Crime</li>
+    <li><span style='background:#74A9CF;'></span>Robbery</li>
+    <li><span style='background:#2B8CBE;'></span>Assault </li>
+  </ul>
+</div>
   <div id='map' class='map pad2'>Map</div>
   <!-- <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2tzaHVsdGlzIiwiYSI6ImNpdDJ3a2JtYTB0cHEycHFwOW5uMGV5cHkifQ.sUGo-LKDrCEO_LEhsCmqXQ';
