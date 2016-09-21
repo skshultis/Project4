@@ -6070,7 +6070,7 @@ map.on('click', function (e) {
     // based on the feature found.
     var popup = new mapboxgl.Popup()
         .setLngLat(feature.geometry.coordinates)
-        .setHTML('<h1 class="mom">' + feature.properties.offense + '</h1>' + '<h3 class="pizza">' + feature.properties.date + '</h3>' + '<h3 class="pizza">' + feature.properties.time + '</h3>')
+        .setHTML('<h1 class="mom">' + feature.properties.offense + '</h1>' + '<h3 class="pizza">' + feature.properties.date + '</h3>' + '<h3 class="pizza">' + feature.properties.time + '</h3>' + '<h3 class="pizza">' + feature.properties.address + '</h3>')
         .addTo(map);
 });
 
