@@ -1,3 +1,1 @@
-I'm building a scraper to get DC crime data to make a crime map of DC. I know, another map. Sorry dudes.
-
-This project is a crime map of DC using data collected from DC open data. 
+dcCrimeMapper is the beginning of an analytical app that maps recent violent crime in Washington, DC. In its current state, it shows times and locations of violent crimes that have occurred in the last 30 days, populated by the District of Columbia Open Data API. The app's future is to be a crime analytical tool, used to evaluate the relationships of criminal activity and local events like festivals, federal holidays, and major weather events. CrimeMappr took me back to my roots cleaning data with Excel, and was my first foray into scraping with Python. 
